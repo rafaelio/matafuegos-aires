@@ -132,16 +132,14 @@
 
   </style>
   
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-982659543">
-  </script>
   <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-    gtag('config', 'AW-982659543');
-  </script>
+  gtag('config', 'AW-982659543');
+  gtag('event', 'page_view'); // 👈 agregá esto
+</script>
 </head>
 <body>
 
