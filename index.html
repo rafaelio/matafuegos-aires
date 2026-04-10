@@ -1,103 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Matafuegos Aires | Venta de Matafuegos ABC</title>
-
-  <!-- SEO + Google Ads compliance -->
-  <meta name="description" content="Venta de matafuegos ABC directo de fábrica. Atención rápida por WhatsApp. Seguridad y calidad certificada.">
-  
-  <!-- Open Graph -->
-  <meta property="og:title" content="Matafuegos Aires">
-  <meta property="og:description" content="Matafuegos ABC directo de fábrica. Consultanos por WhatsApp.">
-
-  <!-- Fuente -->
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
-
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Inter', sans-serif;
-      background: #f5f7fa;
-      color: #333;
-    }
-
-    .container {
-      padding: 20px;
-      max-width: 500px;
-      margin: auto;
-    }
-
-    header {
-      text-align: center;
-      padding: 30px 20px 10px;
-    }
-
-    h1 {
-      margin: 0;
-      font-size: 26px;
-      color: #d32f2f;
-    }
-
-    .subtitle {
-      font-size: 14px;
-      color: #666;
-      margin-top: 8px;
-    }
-
-    .cta {
-      margin-top: 25px;
-      text-align: center;
-    }
-
-    .whatsapp-btn {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      background: #25D366;
-      color: white;
-      text-decoration: none;
-      font-size: 18px;
-      padding: 14px;
-      border-radius: 10px;
-      font-weight: 600;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    }
-
-    .whatsapp-btn img {
-      width: 22px;
-      margin-right: 10px;
-    }
-
-    .card {
-      background: white;
-      padding: 18px;
-      border-radius: 12px;
-      margin-top: 20px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-    }
-
-    h2 {
-      font-size: 18px;
-      margin-bottom: 10px;
-    }
-
-    p {
-      font-size: 14px;
-      line-height: 1.5;
-      color: #555;
-    }
-
-    footer {
-      text-align: center;
-      font-size: 12px;
-      color: #888;
-      margin-top: 30px;
-      padding-bottom: 20px;
-    }
-
-  </style>
 
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=AW-982659543">
@@ -108,54 +11,191 @@
     gtag('js', new Date());
 
     gtag('config', 'AW-982659543');
-</script>
-</head>
+  </script>
 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Matafuegos Aires</title>
+  <meta name="description" content="Venta, recarga y mantenimiento de matafuegos certificados. Atención rápida por WhatsApp.">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; }
+    body { background: #fff; color: #333; }
+
+    /* MINI HEADER */
+    .mini-header {
+      height: 30px;
+      background: #d32f2f;
+      border-bottom: 1px solid #ddd;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 15px;
+      font-size: 12px;
+      color: #fff;
+    }
+
+    /* HEADER */
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 20px;
+      border-bottom: 1px solid #ddd9d9;
+    }
+
+    .logo { font-weight: bold; font-size: 20px; color: #d32f2f; }
+
+    nav ul { display: flex; list-style: none; gap: 20px; }
+    nav a { text-decoration: none; color: #333; font-size: 14px; }
+
+    .menu-toggle { display: none; font-size: 24px; cursor: pointer; }
+
+    /* HERO */
+    .hero-header { text-align: center; padding: 20px 20px; }
+    .hero-header img { max-width: 374px; margin-bottom: 10px; }
+    .hero-header h1 { font-size: 28px; color: #d32f2f; }
+
+    /* MAIN */
+    .main-section {
+        display: flex;
+        align-items: center;
+        padding: 40px 20px;
+        gap: 20px;
+        color: #fff;
+        position: relative;
+        background-color: #ff3714;
+    }
+
+    .main-section::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0,0,0,0.5);
+    }
+
+    .main-content { position: relative; flex: 1; }
+    .main-content h2 { font-size: 26px; margin-bottom: 10px; }
+    .main-content p { font-size: 16px; line-height: 1.5; }
+
+    .cta-btn {
+      display: inline-block;
+      margin-top: 15px;
+      background: #25D366;
+      color: #fff;
+      padding: 12px 20px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .main-image { position: relative; flex: 1; text-align: center; }
+    .main-image img { max-width: 200px; }
+
+    /* TRUST SECTION */
+    .trust {
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .trust h3 { margin-bottom: 10px; }
+    .trust p { font-size: 14px; color: #666; }
+
+    /* FOOTER */
+    footer {
+      background: #f5f5f5;
+      padding: 30px 20px;
+      font-size: 13px;
+      color: #555;
+    }
+
+    footer a { color: #d32f2f; text-decoration: none; }
+
+    /* WHATSAPP FLOAT */
+    .whatsapp-float {
+        position: fixed;
+        bottom: 25px;
+        right: 11px;
+        background-image: url(images/whatsapp.png);
+        width: 73px;
+        height: 73px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 0px;
+        text-decoration: none;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        z-index: 999;
+    }
+
+    /* RESPONSIVE */
+    @media (max-width: 768px) {
+      nav ul { display: none; }
+      .menu-toggle { display: block; }
+      .main-section { flex-direction: column; text-align: center; }
+      .main-image img { max-width: 150px; }
+    }
+
+  </style>
+</head>
 <body>
 
-  <div class="container">
-
-    <header>
-      <h1>Matafuegos Aires</h1>
-      <div class="subtitle">Venta directa de fábrica</div>
-    </header>
-
-    <!-- CTA principal -->
-    <div class="cta">
-      <a class="whatsapp-btn" href="https://wa.me/5491162590609" target="_blank">
-        <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp">
-        Consultar por WhatsApp
-      </a>
-    </div>
-
-    <!-- Info -->
-    <div class="card">
-      <h2>Matafuegos ABC</h2>
-      <p>
-        Comercializamos matafuegos de polvo químico ABC aptos para hogares, comercios e industrias.
-        Nuestros productos cumplen con normas de seguridad y garantizan una protección efectiva ante incendios.
-      </p>
-    </div>
-
-    <div class="card">
-      <h2>Directo de fábrica</h2>
-      <p>
-        Ofrecemos precios competitivos sin intermediarios. Atención rápida y personalizada para asesorarte en la mejor opción según tu necesidad.
-      </p>
-    </div>
-
-    <div class="card">
-      <h2>Contacto inmediato</h2>
-      <p>
-        Respondemos consultas al instante vía WhatsApp. Presioná el botón y te asesoramos sin compromiso.
-      </p>
-    </div>
-
-    <footer>
-      © 2026 Matafuegos Aires - Todos los derechos reservados
-    </footer>
-
+  <div class="mini-header">
+    <div>Matafuegos Aires</div>
+    <div>WhatsApp: 11 6259 0609</div>
   </div>
+
+  <header>
+    <div class="logo">Directo de fabrica</div>
+    <nav>
+      <ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Servicios</a></li>
+        <li><a href="#">Contacto</a></li>
+      </ul>
+    </nav>
+    <div class="menu-toggle">☰</div>
+  </header>
+
+  <section class="hero-header">
+    <img src="images/logo.png" alt="Logo Matafuegos Aires">
+  </section>
+
+  <section class="main-section">
+    <div class="main-content">
+      <h2>Venta, recarga y mantenimiento</h2>
+      <p>
+        Servicio profesional de matafuegos con cumplimiento de normativas vigentes.
+        Atención rápida y asesoramiento personalizado.
+      </p>      
+    </div>
+  </section>
+
+  <section class="trust">
+    <h3>Servicio confiable</h3>
+    <p>
+      Trabajamos bajo normativas vigentes en Argentina. Brindamos información clara,
+      Envios a CABA, Buenos Aires e Interior del pais.
+    </p>
+  </section>
+
+  <footer>
+    <p><strong>Matafuegos Aires</strong></p>
+    <p>Servicio de venta y mantenimiento de matafuegos.</p>
+    <p>Tel: 11 6259 0609</p>
+    <p>Email: contacto@matafuegos-aires.com</p>
+    <p>
+      <a href="#">Política de privacidad</a> | 
+      <a href="#">Términos y condiciones</a>
+    </p>
+  </footer>
+
+  <!-- WhatsApp Floating Button -->
+  <a href="https://wa.me/5491162590609" class="whatsapp-float" target="_blank">💬</a>
 
 </body>
 </html>
